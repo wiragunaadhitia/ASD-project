@@ -1,0 +1,27 @@
+------PROGRAM TOKO BUKU ------
+Nama : Adhitia Wiraguna 
+NIM  : 1301150060
+Kelas: IF-39-04
+------------------------------
+Mempunyai 2 list yaitu :
+1. List Kategori
+2. List Buku (memiliki address untuk menunjuk kategori (parent))
+
+Fungsionalitas :
+1. Insert Data
+	Pada menu ini, jika user mencoba menginputkan data buku terlebih dahulu tidak akan bisa jika data
+kategori belum ada. Maka untuk penginputan harus data kategori terlebih dahulu. Untuk penginputan data, semua tipe data yang bersifat string jika memerlukan spasi harus menggunakan (_). Untuk tipe data integer, tidak boleh menginputkan selain
+angka. Saat menginputkan data Buku, di akhir akan meminta mengelompokkan buku tersebut sebagai kategori apa berdasarkan nama kategorinya (case sensitive).
+
+2. Search & View 
+   Jika memilih menu ini, akan ada 2 pilihan. Jika ingin melihat salah satu data list_kategori maka akan meminta inputan id_kategori, jika ingin melihat salah satu data list_buku maka akan meminta inputan id_buku. 
+
+3. Search and Delete	
+	Delete untuk kategori, akan memerlukan menghapus buku buku sebagai kategori tersebut terlebih dahulu. Jika data-data buku yang masih terhubung dengan kategori tersebut sudah tidak ada, baru akan dapat untuk melakukan delete terhadap kategori tersebut. untuk delete akan dilakukan berdasarkan id.
+4. view all 
+	akan menampilkan semua data kategori dan data buku.
+5. reporting
+	pertama akan menampilkan print info buku berdasarkan kategori.
+-Jumlah data berdasarkan kategori : akan menghitung berapa banyak data buku di dalam satu per satu kategori
+- stock paling sedikit di antara semua buku: akan menampilkan data buku yang memiliki stock minimal.
+- harga rata-rata per kategori : akan menghitung rata rata dari  harga semua buku untuk satu per satu kategori. 

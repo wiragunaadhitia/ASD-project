@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1480648349 source:d:\adhit\tel-u\tugas\tubes asd\tugasbesarasd\buku.cpp
+	"induk.h"
+
+1480592495 d:\adhit\tel-u\tugas\tubes asd\tugasbesarasd\induk.h
+	<iostream>
+	<stdlib.h>
+
+1480513460 source:d:\adhit\tel-u\tugas\tubes asd\tugasbesarasd\kategori.cpp
+	"induk.h"
+
+1480819118 source:d:\adhit\tel-u\tugas\tubes asd\tugasbesarasd\main.cpp
+	<iostream>
+	"induk.h"
+
+1480314599 source:d:\adhit\tel-u\tugas\tubes asd\tugasbesarasd\prosedurmenu.cpp
+	"induk.h"
+
+1480314670 d:\adhit\tel-u\tugas\tubes asd\tugasbesarasd\prosedurmenu.cpp
+	"main.cpp"
+
+1480314626 d:\adhit\tel-u\tugas\tubes asd\tugasbesarasd\main.cpp
+	<iostream>
+	"induk.h"
+	"prosedurmenu.cpp"
+
